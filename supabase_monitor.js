@@ -431,15 +431,25 @@
 const axios = require('axios');
 const fs = require('fs');
 const path = require('path');
-const http = require('http');
 require('dotenv').config();
+const express = require('express');
+
+const app = express();
+const PORT = process.env.PORT || 3000;
+
+app.get('/', (req, res) => {
+  res.send('✅ Supabase Monitor is running and healthy.');
+});
+
+app.listen(PORT, () => console.log(`🌐 Web service active on port ${PORT}`));
+
 
 // Configuration from environment variables
 const SUPABASE_URL = process.env.SUPABASE_URL;
 const SUPABASE_KEY = process.env.SUPABASE_KEY;
 const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
 const TELEGRAM_CHAT_ID = process.env.TELEGRAM_CHAT_ID;
-const PORT = process.env.PORT || 3000;
+
 
 // Monitoring configuration
 const CHECK_INTERVAL = 60000; // 60 seconds in milliseconds
