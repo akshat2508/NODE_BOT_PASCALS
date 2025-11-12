@@ -14,3 +14,11 @@
 2025-11-12T13:11:53.093Z - INFO - Telegram alert sent successfully: INFO
 2025-11-12T13:11:54.208Z - INFO - Status: healthy, Response time: 438ms
 2025-11-12T13:12:02.894Z - INFO - Monitoring stopped
+2025-11-12T16:06:54.196Z - INFO - Starting Supabase monitoring...
+2025-11-12T16:06:56.142Z - INFO - Telegram alert sent successfully: INFO
+2025-11-12T16:06:59.815Z - INFO - Status: healthy, Response time: 2103ms
+2025-11-12T16:08:01.150Z - ERROR - Failed to send Telegram alert: Request failed with status code 400
+2025-11-12T16:08:01.152Z - INFO - Daily statistics reset
+2025-11-12T16:08:03.773Z - INFO - Status: healthy, Response time: 1053ms
+2025-11-12T16:09:02.005Z - INFO - Status: healthy, Response time: 631ms
+2025-11-12T16:09:32.030Z - INFO - Monitoring stopped
