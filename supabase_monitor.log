@@ -1,0 +1,16 @@
+2025-11-12T13:10:20.964Z - INFO - Starting Supabase monitoring...
+2025-11-12T13:10:23.009Z - INFO - Telegram alert sent successfully: INFO
+2025-11-12T13:10:27.130Z - INFO - Status: healthy, Response time: 2308ms
+2025-11-12T13:10:38.873Z - INFO - Monitoring stopped
+2025-11-12T13:10:50.773Z - INFO - Starting Supabase monitoring...
+2025-11-12T13:10:51.731Z - INFO - Telegram alert sent successfully: INFO
+2025-11-12T13:10:53.237Z - INFO - Status: healthy, Response time: 650ms
+2025-11-12T13:11:31.386Z - INFO - Monitoring stopped
+2025-11-12T13:11:32.822Z - INFO - Starting Supabase monitoring...
+2025-11-12T13:11:33.817Z - INFO - Telegram alert sent successfully: INFO
+2025-11-12T13:11:35.177Z - INFO - Telegram alert sent successfully: ERROR
+2025-11-12T13:11:35.178Z - INFO - Status: error, Error: Request error: 401 - Unauthorized
+2025-11-12T13:11:52.172Z - INFO - Starting Supabase monitoring...
+2025-11-12T13:11:53.093Z - INFO - Telegram alert sent successfully: INFO
+2025-11-12T13:11:54.208Z - INFO - Status: healthy, Response time: 438ms
+2025-11-12T13:12:02.894Z - INFO - Monitoring stopped
